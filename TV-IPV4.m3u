@@ -40,10 +40,7 @@ http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225597/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225731/index.m3u8
 
 #EXTINF:-1 tvg-id="cctv13" tvg-logo="https://cdn.jsdelivr.net/gh/BurningC4/tvg-logo@master/cctv13.png",CCTV-13 新闻
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226011/index.m3u8
-
-#EXTINF:-1 tvg-id="cctv13HEVC" tvg-logo="https://cdn.jsdelivr.net/gh/BurningC4/tvg-logo@master/cctv13.png",CCTV-13 新闻 HEVC
-http://ott.mobaibox.com/PLTV/3/224/3221228324/index.m3u8
+https://live-play.cctvnews.cctv.com/cctv/merge_cctv13.m3u8
 
 #EXTINF:-1 tvg-id="cctvchild" tvg-logo="https://cdn.jsdelivr.net/gh/BurningC4/tvg-logo@master/cctvchild.png",CCTV-14 少儿
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225732/index.m3u8
@@ -182,3 +179,6 @@ http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226444/index.m3u8
 
 #EXTINF:-1 tvg-id="zhejiang" tvg-logo="https://cdn.jsdelivr.net/gh/BurningC4/tvg-logo@master/zhejiang.png",浙江卫视
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226339/index.m3u8
+
+#EXTINF:-1 tvg-id="fztv1" tvg-logo="",7M1080
+http://cmhiott.hvs.fj.chinamobile.com/PLTV/88888888/224/3221227157/index.m3u8
