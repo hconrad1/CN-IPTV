@@ -179,6 +179,3 @@ http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226444/index.m3u8
 
 #EXTINF:-1 tvg-id="zhejiang" tvg-logo="https://cdn.jsdelivr.net/gh/BurningC4/tvg-logo@master/zhejiang.png",浙江卫视
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226339/index.m3u8
-
-#EXTINF:-1 tvg-id="fztv1" tvg-logo="",7M1080
-http://cmhiott.hvs.fj.chinamobile.com/PLTV/88888888/224/3221227157/index.m3u8
