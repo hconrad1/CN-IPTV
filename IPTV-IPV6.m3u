@@ -1,9 +1,7 @@
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/Meroser/IPTV/main/tvxml.xml"
-#央视高清/21个频道
+#央视高清/20个频道
 #EXTINF:-1 tvg-id="A01" tvg-name="CCTV1" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/CCTV1.png" group-title="央视",CCTV-1
 http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001022/index.m3u8
-#EXTINF:-1 tvg-id="A01" tvg-name="CCTV1" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/CCTV1.png" group-title="央视",CCTV-1 HEVC
-http://[2409:8087:2001:20:2800:0:df6e:eb06]:80/wh7f454c46tw3965487430_-634044824/ott.mobaibox.com/PLTV/3/224/3221228213/index.m3u8?icpid=3&RTS=1674379785&from=40&popid=40&hms_devid=2036&prioritypopid=40&vqe=3
 #EXTINF:-1 tvg-id="A02" tvg-name="CCTV2" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/CCTV2.png" group-title="央视",CCTV-2
 http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001220/index.m3u8
 #EXTINF:-1 tvg-id="A03" tvg-name="CCTV3" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/CCTV3.png" group-title="央视",CCTV-3
@@ -43,64 +41,168 @@ http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001020/index.m3u8
 #EXTINF:-1 tvg-id="A20" tvg-name="CETV4" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/CETV4.png" group-title="央视",CETV-4
 http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001348/index.m3u8
 
+#央视Max/18个频道
+#EXTINF:-1 tvg-id="H01" tvg-name="CCTV1" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/CCTV1.png" group-title="央视MAX",CCTV-1
+http://[2409:8087:2001:20:2800:0:df6e:eb02]:80/wh7f454c46tw1528379826_-632121028/ott.mobaibox.com/PLTV/3/224/3221228149/index.m3u8?icpid=3&RTS=1674385938&from=40&popid=40&hms_devid=2039&prioritypopid=40&vqe=3
+#EXTINF:-1 tvg-id="H02" tvg-name="CCTV2" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/CCTV2.png" group-title="央视MAX",CCTV-2
+http://[2409:8087:2001:20:2800:0:df6e:eb12]:80/wh7f454c46tw1742213158_1775644325/ott.mobaibox.com/PLTV/3/224/3221227543/index.m3u8?icpid=3&RTS=1674386152&from=40&popid=40&hms_devid=2112&prioritypopid=40&vqe=3
+#EXTINF:-1 tvg-id="H03" tvg-name="CCTV3" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/CCTV3.png" group-title="央视MAX",CCTV-3
+http://[2409:8087:2001:20:2800:0:df6e:eb13]:80/wh7f454c46tw3969776637_-195437199/ott.mobaibox.com/PLTV/3/224/3221227546/index.m3u8?icpid=3&RTS=1674379790&from=40&popid=40&hms_devid=2112&prioritypopid=40&vqe=3
+#EXTINF:-1 tvg-id="H04" tvg-name="CCTV4" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/CCTV4.png" group-title="央视MAX",CCTV-4
+http://[2409:8087:2001:20:2800:0:df6e:eb12]:80/wh7f454c46tw84322209_-1520654633/ott.mobaibox.com/PLTV/3/224/3221227549/index.m3u8?icpid=3&RTS=1674380199&from=40&popid=40&hms_devid=2112&prioritypopid=40&vqe=3
+#EXTINF:-1 tvg-id="H05" tvg-name="CCTV5" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/CCTV5.png" group-title="央视MAX",CCTV-5
+http://[2409:8087:2001:20:2800:0:df6e:eb11]:80/wh7f454c46tw87480947_-1225841912/ott.mobaibox.com/PLTV/3/224/3221228179/index.m3u8?icpid=3&RTS=1674380202&from=40&popid=40&hms_devid=2110&prioritypopid=40&vqe=3
+#EXTINF:-1 tvg-id="H06" tvg-name="CCTV5+" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/CCTV5plus.png" group-title="央视MAX",CCTV-5+
+http://[2409:8087:2001:20:2800:0:df6e:eb17]:80/wh7f454c46tw90393969_1500887054/ott.mobaibox.com/PLTV/3/224/3221228176/index.m3u8?icpid=3&RTS=1674380205&from=40&popid=40&hms_devid=2114&prioritypopid=40&vqe=3
+#EXTINF:-1 tvg-id="H07" tvg-name="CCTV6" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/CCTV6.png" group-title="央视MAX",CCTV-6
+http://[2409:8087:2001:20:2800:0:df6e:eb15]:80/wh7f454c46tw92219307_2093744544/ott.mobaibox.com/PLTV/3/224/3221228123/index.m3u8?icpid=3&RTS=1674380207&from=40&popid=40&hms_devid=2115&prioritypopid=40&vqe=3
+#EXTINF:-1 tvg-id="H08" tvg-name="CCTV7" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/CCTV7.png" group-title="央视MAX",CCTV-7
+http://[2409:8087:2001:20:2800:0:df6e:eb26]:80/wh7f454c46tw2093183387_2029738236/ott.mobaibox.com/PLTV/3/224/3221228283/index.m3u8?icpid=3&RTS=1674468107&from=40&popid=40&hms_devid=2293&prioritypopid=40&vqe=3
+#EXTINF:-1 tvg-id="H09" tvg-name="CCTV8" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/CCTV8.png" group-title="央视MAX",CCTV-8
+http://[2409:8087:2001:20:2800:0:df6e:eb1a]:80/wh7f454c46tw94952617_-1280969877/ott.mobaibox.com/PLTV/3/224/3221228194/index.m3u8?icpid=3&RTS=1674380210&from=40&popid=40&hms_devid=2116&prioritypopid=40&vqe=3
+#EXTINF:-1 tvg-id="H10" tvg-name="CCTV9" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/CCTV9.png" group-title="央视MAX",CCTV-9
+http://[2409:8087:2001:20:2800:0:df6e:eb21]:80/wh7f454c46tw1536712487_1033271394/ott.mobaibox.com/PLTV/3/224/3221228303/index.m3u8?icpid=3&RTS=1674385947&from=40&popid=40&hms_devid=2290&prioritypopid=40&vqe=3
+#EXTINF:-1 tvg-id="H11" tvg-name="CCTV10" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/CCTV10.png" group-title="央视MAX",CCTV-10
+http://[2409:8087:2001:20:2800:0:df6e:eb21]:80/wh7f454c46tw96794082_1908050006/ott.mobaibox.com/PLTV/3/224/3221228286/index.m3u8?icpid=3&RTS=1674380212&from=40&popid=40&hms_devid=2290&prioritypopid=40&vqe=3
+#EXTINF:-1 tvg-id="H12" tvg-name="CCTV11" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/CCTV11.png" group-title="央视MAX",CCTV-11
+http://[2409:8087:2001:20:2800:0:df6e:eb23]:80/wh7f454c46tw1537747484_655821129/ott.mobaibox.com/PLTV/3/224/3221228289/index.m3u8?icpid=3&RTS=1674385948&from=40&popid=40&hms_devid=2291&prioritypopid=40&vqe=3
+#EXTINF:-1 tvg-id="H13" tvg-name="CCTV12" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/CCTV12.png" group-title="央视MAX",CCTV-12
+http://[2409:8087:2001:20:2800:0:df6e:eb22]:80/wh7f454c46tw98162637_2110754422/ott.mobaibox.com/PLTV/3/224/3221228401/index.m3u8?icpid=3&RTS=1674380213&from=40&popid=40&hms_devid=2291&prioritypopid=40&vqe=3
+#EXTINF:-1 tvg-id="H14" tvg-name="CCTV13" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/CCTV13.png" group-title="央视MAX",CCTV-13
+http://[2409:8087:2001:20:2800:0:df6e:eb24]:80/wh7f454c46tw2444616252_100116641/ott.mobaibox.com/PLTV/3/224/3221228324/index.m3u8?icpid=3&RTS=1674369675&from=40&popid=40&hms_devid=2292&prioritypopid=40&vqe=3
+#EXTINF:-1 tvg-id="H15" tvg-name="CCTV14" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/CCTV14.png" group-title="央视MAX",CCTV-14
+http://[2409:8087:2001:20:2800:0:df6e:eb23]:80/wh7f454c46tw1184949553_1248271610/ott.mobaibox.com/PLTV/3/224/3221228292/index.m3u8?icpid=3&RTS=1674381300&from=40&popid=40&hms_devid=2291&prioritypopid=40&vqe=3
+#EXTINF:-1 tvg-id="H16" tvg-name="CCTV15" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/CCTV15.png" group-title="央视MAX",CCTV-15
+http://[2409:8087:2001:20:2800:0:df6e:eb23]:80/wh7f454c46tw1248547286_2118050836/ott.mobaibox.com/PLTV/3/224/3221228404/index.m3u8?icpid=3&RTS=1674381363&from=40&popid=40&hms_devid=2291&prioritypopid=40&vqe=3
+#EXTINF:-1 tvg-id="H17" tvg-name="CCTV16" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/CCTV16.png" group-title="央视MAX",CCTV-16
+http://[2409:8087:2001:20:2800:0:df6e:eb1a]:80/wh7f454c46tw465056087_375752967/ott.mobaibox.com/PLTV/3/224/3221228112/index.m3u8?icpid=3&RTS=1674466479&from=40&popid=40&hms_devid=2116&prioritypopid=40&vqe=3
+#EXTINF:-1 tvg-id="H18" tvg-name="CCTV17" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/CCTV17.png" group-title="央视MAX",CCTV-17
+http://[2409:8087:2001:20:2800:0:df6e:eb22]:80/wh7f454c46tw1418270804_-738667041/ott.mobaibox.com/PLTV/3/224/3221228407/index.m3u8?icpid=3&RTS=1674381533&from=40&popid=40&hms_devid=2291&prioritypopid=40&vqe=3
 
-#卫视高清/28个频道
+
+#卫视高清/25个频道
 #EXTINF:-1 tvg-id="B01" tvg-name="北京卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Beijing.png" group-title="卫视",北京卫视
-http://[2409:8087:2001:20:2800:0:df6e:eb0b]/wh7f454c46tw2687876293_-1703018199/ott.mobaibox.com/PLTV/3/224/3221227508/index.m3u8?icpid=3&RTS=1668597482&from=40&popid=40&hms_devid=2038&prioritypopid=40&vqe=3
+http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001029/index.m3u8
 #EXTINF:-1 tvg-id="B02" tvg-name="东方卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Dongfang.png" group-title="卫视",东方卫视
-http://[2409:8087:2001:20:2800:0:df6e:eb16]/wh7f454c46tw2542426131_1585848046/ott.mobaibox.com/PLTV/3/224/3221227511/index.m3u8?icpid=3&RTS=1668597336&from=40&popid=40&hms_devid=2114&prioritypopid=40&vqe=3
+http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001013/index.m3u8
 #EXTINF:-1 tvg-id="B03" tvg-name="湖南卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Hunan.png" group-title="卫视",湖南卫视
 http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001026/index.m3u8
 #EXTINF:-1 tvg-id="B04" tvg-name="浙江卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Zhejiang.png" group-title="卫视",浙江卫视
-http://[2409:8087:2001:20:2800:0:df6e:eb11]/wh7f454c46tw1197826796_-265147758/ott.mobaibox.com/PLTV/3/224/3221227491/index.m3u8?icpid=3&RTS=1669699798&from=40&popid=40&hms_devid=2110&prioritypopid=40&vqe=3
+http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001023/index.m3u8
 #EXTINF:-1 tvg-id="B05" tvg-name="江苏卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Jiangsu.png" group-title="卫视",江苏卫视
-http://[2409:8087:2001:20:2800:0:df6e:eb12]/wh7f454c46tw2983110475_-1591539074/ott.mobaibox.com/PLTV/3/224/3221228097/index.m3u8?icpid=3&RTS=1668597777&from=40&popid=40&hms_devid=2112&prioritypopid=40&vqe=3
+http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001033/index.m3u8
 #EXTINF:-1 tvg-id="B06" tvg-name="江西卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Jiangxi.png" group-title="卫视",江西卫视
-http://[2409:8087:2001:20:2800:0:df6e:eb17]/wh7f454c46tw1965546073_-1364170119/ott.mobaibox.com/PLTV/3/224/3221228109/index.m3u8?icpid=3&RTS=1669700566&from=40&popid=40&hms_devid=2114&prioritypopid=40&vqe=3
+http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001034/index.m3u8
 #EXTINF:-1 tvg-id="B07" tvg-name="河北卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Hebei.png" group-title="卫视",河北卫视
-http://[2409:8087:2001:20:2800:0:df6e:eb05]/wh7f454c46tw1698524218_988816054/ott.mobaibox.com/PLTV/3/224/3221228106/index.m3u8?icpid=3&RTS=1669700299&from=40&popid=40&hms_devid=2041&prioritypopid=40&vqe=3
+http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001229/index.m3u8
 #EXTINF:-1 tvg-id="B08" tvg-name="河南卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Henan.png" group-title="卫视",河南卫视
-http://[2409:8087:2001:20:2800:0:df6e:eb17]/wh7f454c46tw1784575403_-1712002709/ott.mobaibox.com/PLTV/3/224/3221228221/index.m3u8?icpid=3&RTS=1669700385&from=40&popid=40&hms_devid=2114&prioritypopid=40&vqe=3
+http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001222/index.m3u8
 #EXTINF:-1 tvg-id="B09" tvg-name="海南卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Hainan.png" group-title="卫视",海南卫视
 http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001183/index.m3u8
 #EXTINF:-1 tvg-id="B10" tvg-name="深圳卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Shenzhen.png" group-title="卫视",深圳卫视
-http://[2409:8087:2001:20:2800:0:df6e:eb11]/wh7f454c46tw3025923625_628894334/ott.mobaibox.com/PLTV/3/224/3221227555/index.m3u8?icpid=3&RTS=1668597820&from=40&popid=40&hms_devid=2110&prioritypopid=40&vqe=3
+http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001030/index.m3u8
 #EXTINF:-1 tvg-id="B11" tvg-name="湖北卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Hubei.png" group-title="卫视",湖北卫视
-http://[2409:8087:2001:20:2800:0:df6e:eb11]/wh7f454c46tw3059146177_-1525708880/ott.mobaibox.com/PLTV/3/224/3221227479/index.m3u8?icpid=3&RTS=1668597853&from=40&popid=40&hms_devid=2110&prioritypopid=40&vqe=3
+http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001027/index.m3u8
 #EXTINF:-1 tvg-id="B12" tvg-name="四川卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Sichuan.png" group-title="卫视",四川卫视
-http://[2409:8087:2001:20:2800:0:df6e:eb09]/wh7f454c46tw2502717081_11504314/ott.mobaibox.com/PLTV/3/224/3221227556/index.m3u8?icpid=3&RTS=1669701103&from=40&popid=40&hms_devid=2037&prioritypopid=40&vqe=3
+http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001130/index.m3u8
 #EXTINF:-1 tvg-id="B13" tvg-name="天津卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Tianjin.png" group-title="卫视",天津卫视
-http://[2409:8087:2001:20:2800:0:df6e:eb11]/wh7f454c46tw2730715388_788631706/ott.mobaibox.com/PLTV/3/224/3221227488/index.m3u8?icpid=3&RTS=1668597525&from=40&popid=40&hms_devid=2110&prioritypopid=40&vqe=3
+http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001036/index.m3u8
 #EXTINF:-1 tvg-id="B14" tvg-name="安徽卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Anhui.png" group-title="卫视",安徽卫视
-http://[2409:8087:2001:20:2800:0:df6e:eb12]/wh7f454c46tw2802330256_375747539/ott.mobaibox.com/PLTV/3/224/3221227558/index.m3u8?icpid=3&RTS=1668597596&from=40&popid=40&hms_devid=2112&prioritypopid=40&vqe=3
+http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001037/index.m3u8
 #EXTINF:-1 tvg-id="B15" tvg-name="山东卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Shandong.png" group-title="卫视",山东卫视
-http://[2409:8087:2001:20:2800:0:df6e:eb10]/wh7f454c46tw2848465480_1677095697/ott.mobaibox.com/PLTV/3/224/3221227517/index.m3u8?icpid=3&RTS=1668597642&from=40&popid=40&hms_devid=2110&prioritypopid=40&vqe=3
+http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001028/index.m3u8
 #EXTINF:-1 tvg-id="B16" tvg-name="广东卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Guangdong.png" group-title="卫视",广东卫视
-http://[2409:8087:2001:20:2800:0:df6e:eb03]/wh7f454c46tw2917484419_-1632335828/ott.mobaibox.com/PLTV/3/224/3221227476/index.m3u8?icpid=3&RTS=1668597711&from=40&popid=40&hms_devid=2039&prioritypopid=40&vqe=3
+http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001032/index.m3u8
 #EXTINF:-1 tvg-id="B17" tvg-name="广西卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Guangxi.png" group-title="卫视",广西卫视
-http://[2409:8087:2001:20:2800:0:df6e:eb05]/wh7f454c46tw2325655923_1638953995/ott.mobaibox.com/PLTV/3/224/3221228183/index.m3u8?icpid=3&RTS=1669700926&from=40&popid=40&hms_devid=2041&prioritypopid=40&vqe=3
+http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001224/index.m3u8
 #EXTINF:-1 tvg-id="B18" tvg-name="贵州卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Guizhou.png" group-title="卫视",贵州卫视
-http://[2409:8087:2001:20:2800:0:df6e:eb08]/wh7f454c46tw2087544744_109645303/ott.mobaibox.com/PLTV/3/224/3221228136/index.m3u8?icpid=3&RTS=1669700688&from=40&popid=40&hms_devid=2037&prioritypopid=40&vqe=3
+http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001184/index.m3u8
 #EXTINF:-1 tvg-id="B19" tvg-name="辽宁卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Liaoning.png" group-title="卫视",辽宁卫视
-http://[2409:8087:2001:20:2800:0:df6e:eb16]/wh7f454c46tw3102310989_-1844874138/ott.mobaibox.com/PLTV/3/224/3221227485/index.m3u8?icpid=3&RTS=1668597896&from=40&popid=40&hms_devid=2114&prioritypopid=40&vqe=3
+http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001035/index.m3u8
 #EXTINF:-1 tvg-id="B20" tvg-name="重庆卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Chongqing.png" group-title="卫视",重庆卫视
-http://[2409:8087:2001:20:2800:0:df6e:eb09]/wh7f454c46tw2787424866_142914197/ott.mobaibox.com/PLTV/3/224/3221228133/index.m3u8?icpid=3&RTS=1669701388&from=40&popid=40&hms_devid=2037&prioritypopid=40&vqe=3
+http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001129/index.m3u8
 #EXTINF:-1 tvg-id="B21" tvg-name="黑龙江卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Heilongjiang.png" group-title="卫视",黑龙江卫视
 http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001031/index.m3u8
 #EXTINF:-1 tvg-id="B22" tvg-name="甘肃卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Gansu.png" group-title="卫视",甘肃卫视
-http://[2409:8087:2001:20:2800:0:df6e:eb1a]/wh7f454c46tw1400573680_-1979013462/ott.mobaibox.com/PLTV/3/224/3221227568/index.m3u8?icpid=3&RTS=1668600490&from=40&popid=40&hms_devid=2116&prioritypopid=40&vqe=3
-#EXTINF:-1 tvg-id="B23" tvg-name="吉林卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Jilin.png" group-title="卫视",吉林卫视
-http://[2409:8087:2001:20:2800:0:df6e:eb03]/wh7f454c46tw1874077489_789689702/ott.mobaibox.com/PLTV/3/224/3221228130/index.m3u8?icpid=3&RTS=1669700475&from=40&popid=40&hms_devid=2039&prioritypopid=40&vqe=3
-#EXTINF:-1 tvg-id="B24" tvg-name="三沙卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Sansha.png" group-title="卫视",三沙卫视
-http://[2409:8087:5e01:34::21]:6610/ZTE_CMS/08984400000000060000000000000319/index.m3u8?IAS
-#EXTINF:-1 tvg-id="B25" tvg-name="东南卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Dongnan.png" group-title="卫视",东南卫视
-http://[2409:8087:2001:20:2800:0:df6e:eb0a]/wh7f454c46tw2900649569_-743777193/ott.mobaibox.com/PLTV/3/224/3221227670/index.m3u8?icpid=3&RTS=1669701501&from=40&popid=40&hms_devid=2038&prioritypopid=40&vqe=3
-#EXTINF:-1 tvg-id="B26" tvg-name="青海卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Qinghai.png" group-title="卫视",青海卫视
-http://[2409:8087:2001:20:2800:0:df6e:eb1b]/wh7f454c46tw1221605145_-1738716276/ott.mobaibox.com/PLTV/3/224/3221227554/index.m3u8?icpid=3&RTS=1668600311&from=40&popid=40&hms_devid=2116&prioritypopid=40&vqe=3
-#EXTINF:-1 tvg-id="B27" tvg-name="新疆卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Xinjiang.png" group-title="卫视",新疆卫视
-http://[2409:8087:2001:20:2800:0:df6e:eb0b]/wh7f454c46tw993550557_162751766/ott.mobaibox.com/PLTV/3/224/3221228290/index.m3u8?icpid=3&RTS=1668604377&from=40&popid=40&hms_devid=2038&prioritypopid=40&vqe=3
-#EXTINF:-1 tvg-id="B28" tvg-name="云南卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Yunnan.png" group-title="卫视",云南卫视
+http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001298/index.m3u8
+#EXTINF:-1 tvg-id="B23" tvg-name="东南卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Dongnan.png" group-title="卫视",东南卫视
+http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001201/index.m3u8
+#EXTINF:-1 tvg-id="B24" tvg-name="青海卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Qinghai.png" group-title="卫视",青海卫视
+http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001450/index.m3u8
+#EXTINF:-1 tvg-id="B25" tvg-name="云南卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Yunnan.png" group-title="卫视",云南卫视
 http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001223/index.m3u8
+
+#卫视Max/35个频道
+#EXTINF:-1 tvg-id="G01" tvg-name="北京卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Beijing.png" group-title="卫视Max",北京卫视
+http://[2409:8087:2001:20:2800:0:df6e:eb0b]/wh7f454c46tw2687876293_-1703018199/ott.mobaibox.com/PLTV/3/224/3221227508/index.m3u8?icpid=3&RTS=1668597482&from=40&popid=40&hms_devid=2038&prioritypopid=40&vqe=3
+#EXTINF:-1 tvg-id="G02" tvg-name="东方卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Dongfang.png" group-title="卫视Max",东方卫视
+http://[2409:8087:2001:20:2800:0:df6e:eb16]/wh7f454c46tw2542426131_1585848046/ott.mobaibox.com/PLTV/3/224/3221227511/index.m3u8?icpid=3&RTS=1668597336&from=40&popid=40&hms_devid=2114&prioritypopid=40&vqe=3
+#EXTINF:-1 tvg-id="G03" tvg-name="湖南卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Hunan.png" group-title="卫视Max",湖南卫视
+http://[2409:8087:2001:20:2800:0:df6e:eb16]:80/wh7f454c46tw1229968665_-2033076102/ott.mobaibox.com/PLTV/3/224/3221227482/index.m3u8?icpid=3&RTS=1674385640&from=40&popid=40&hms_devid=2114&prioritypopid=40&vqe=3
+#EXTINF:-1 tvg-id="G04" tvg-name="浙江卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Zhejiang.png" group-title="卫视Max",浙江卫视
+http://[2409:8087:2001:20:2800:0:df6e:eb11]/wh7f454c46tw1197826796_-265147758/ott.mobaibox.com/PLTV/3/224/3221227491/index.m3u8?icpid=3&RTS=1669699798&from=40&popid=40&hms_devid=2110&prioritypopid=40&vqe=3
+#EXTINF:-1 tvg-id="G05" tvg-name="江苏卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Jiangsu.png" group-title="卫视Max",江苏卫视
+http://[2409:8087:2001:20:2800:0:df6e:eb12]/wh7f454c46tw2983110475_-1591539074/ott.mobaibox.com/PLTV/3/224/3221228097/index.m3u8?icpid=3&RTS=1668597777&from=40&popid=40&hms_devid=2112&prioritypopid=40&vqe=3
+#EXTINF:-1 tvg-id="G06" tvg-name="江西卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Jiangxi.png" group-title="卫视Max",江西卫视
+http://[2409:8087:2001:20:2800:0:df6e:eb17]/wh7f454c46tw1965546073_-1364170119/ott.mobaibox.com/PLTV/3/224/3221228109/index.m3u8?icpid=3&RTS=1669700566&from=40&popid=40&hms_devid=2114&prioritypopid=40&vqe=3
+#EXTINF:-1 tvg-id="G07" tvg-name="河北卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Hebei.png" group-title="卫视Max",河北卫视
+http://[2409:8087:2001:20:2800:0:df6e:eb05]/wh7f454c46tw1698524218_988816054/ott.mobaibox.com/PLTV/3/224/3221228106/index.m3u8?icpid=3&RTS=1669700299&from=40&popid=40&hms_devid=2041&prioritypopid=40&vqe=3
+#EXTINF:-1 tvg-id="G08" tvg-name="河南卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Henan.png" group-title="卫视Max",河南卫视
+http://[2409:8087:2001:20:2800:0:df6e:eb17]/wh7f454c46tw1784575403_-1712002709/ott.mobaibox.com/PLTV/3/224/3221228221/index.m3u8?icpid=3&RTS=1669700385&from=40&popid=40&hms_devid=2114&prioritypopid=40&vqe=3
+#EXTINF:-1 tvg-id="G09" tvg-name="海南卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Hainan.png" group-title="卫视Max",海南卫视
+http://[2409:8087:2001:20:2800:0:df6e:eb05]:80/wh7f454c46tw1760762625_-423271938/ott.mobaibox.com/PLTV/3/224/3221228101/index.m3u8?icpid=3&RTS=1674386171&from=40&popid=40&hms_devid=2041&prioritypopid=40&vqe=3
+#EXTINF:-1 tvg-id="G10" tvg-name="深圳卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Shenzhen.png" group-title="卫视Max",深圳卫视
+http://[2409:8087:2001:20:2800:0:df6e:eb11]/wh7f454c46tw3025923625_628894334/ott.mobaibox.com/PLTV/3/224/3221227555/index.m3u8?icpid=3&RTS=1668597820&from=40&popid=40&hms_devid=2110&prioritypopid=40&vqe=3
+#EXTINF:-1 tvg-id="G11" tvg-name="湖北卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Hubei.png" group-title="卫视Max",湖北卫视
+http://[2409:8087:2001:20:2800:0:df6e:eb11]/wh7f454c46tw3059146177_-1525708880/ott.mobaibox.com/PLTV/3/224/3221227479/index.m3u8?icpid=3&RTS=1668597853&from=40&popid=40&hms_devid=2110&prioritypopid=40&vqe=3
+#EXTINF:-1 tvg-id="G12" tvg-name="四川卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Sichuan.png" group-title="卫视Max",四川卫视
+http://[2409:8087:2001:20:2800:0:df6e:eb09]/wh7f454c46tw2502717081_11504314/ott.mobaibox.com/PLTV/3/224/3221227556/index.m3u8?icpid=3&RTS=1669701103&from=40&popid=40&hms_devid=2037&prioritypopid=40&vqe=3
+#EXTINF:-1 tvg-id="G13" tvg-name="天津卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Tianjin.png" group-title="卫视Max",天津卫视
+http://[2409:8087:2001:20:2800:0:df6e:eb11]/wh7f454c46tw2730715388_788631706/ott.mobaibox.com/PLTV/3/224/3221227488/index.m3u8?icpid=3&RTS=1668597525&from=40&popid=40&hms_devid=2110&prioritypopid=40&vqe=3
+#EXTINF:-1 tvg-id="G14" tvg-name="安徽卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Anhui.png" group-title="卫视Max",安徽卫视
+http://[2409:8087:2001:20:2800:0:df6e:eb12]/wh7f454c46tw2802330256_375747539/ott.mobaibox.com/PLTV/3/224/3221227558/index.m3u8?icpid=3&RTS=1668597596&from=40&popid=40&hms_devid=2112&prioritypopid=40&vqe=3
+#EXTINF:-1 tvg-id="G15" tvg-name="山东卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Shandong.png" group-title="卫视Max",山东卫视
+http://[2409:8087:2001:20:2800:0:df6e:eb10]/wh7f454c46tw2848465480_1677095697/ott.mobaibox.com/PLTV/3/224/3221227517/index.m3u8?icpid=3&RTS=1668597642&from=40&popid=40&hms_devid=2110&prioritypopid=40&vqe=3
+#EXTINF:-1 tvg-id="G16" tvg-name="广东卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Guangdong.png" group-title="卫视Max",广东卫视
+http://[2409:8087:2001:20:2800:0:df6e:eb03]/wh7f454c46tw2917484419_-1632335828/ott.mobaibox.com/PLTV/3/224/3221227476/index.m3u8?icpid=3&RTS=1668597711&from=40&popid=40&hms_devid=2039&prioritypopid=40&vqe=3
+#EXTINF:-1 tvg-id="G17" tvg-name="广西卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Guangxi.png" group-title="卫视Max",广西卫视
+http://[2409:8087:2001:20:2800:0:df6e:eb05]/wh7f454c46tw2325655923_1638953995/ott.mobaibox.com/PLTV/3/224/3221228183/index.m3u8?icpid=3&RTS=1669700926&from=40&popid=40&hms_devid=2041&prioritypopid=40&vqe=3
+#EXTINF:-1 tvg-id="G18" tvg-name="贵州卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Guizhou.png" group-title="卫视Max",贵州卫视
+http://[2409:8087:2001:20:2800:0:df6e:eb08]/wh7f454c46tw2087544744_109645303/ott.mobaibox.com/PLTV/3/224/3221228136/index.m3u8?icpid=3&RTS=1669700688&from=40&popid=40&hms_devid=2037&prioritypopid=40&vqe=3
+#EXTINF:-1 tvg-id="G19" tvg-name="辽宁卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Liaoning.png" group-title="卫视Max",辽宁卫视
+http://[2409:8087:2001:20:2800:0:df6e:eb16]/wh7f454c46tw3102310989_-1844874138/ott.mobaibox.com/PLTV/3/224/3221227485/index.m3u8?icpid=3&RTS=1668597896&from=40&popid=40&hms_devid=2114&prioritypopid=40&vqe=3
+#EXTINF:-1 tvg-id="G20" tvg-name="重庆卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Chongqing.png" group-title="卫视Max",重庆卫视
+http://[2409:8087:2001:20:2800:0:df6e:eb09]/wh7f454c46tw2787424866_142914197/ott.mobaibox.com/PLTV/3/224/3221228133/index.m3u8?icpid=3&RTS=1669701388&from=40&popid=40&hms_devid=2037&prioritypopid=40&vqe=3
+#EXTINF:-1 tvg-id="G21" tvg-name="黑龙江卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Heilongjiang.png" group-title="卫视Max",黑龙江卫视
+http://[2409:8087:2001:20:2800:0:df6e:eb16]:80/wh7f454c46tw1754506897_714399677/ott.mobaibox.com/PLTV/3/224/3221227514/index.m3u8?icpid=3&RTS=1674386164&from=40&popid=40&hms_devid=2114&prioritypopid=40&vqe=3
+#EXTINF:-1 tvg-id="G22" tvg-name="甘肃卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Gansu.png" group-title="卫视Max",甘肃卫视
+http://[2409:8087:2001:20:2800:0:df6e:eb1a]/wh7f454c46tw1400573680_-1979013462/ott.mobaibox.com/PLTV/3/224/3221227568/index.m3u8?icpid=3&RTS=1668600490&from=40&popid=40&hms_devid=2116&prioritypopid=40&vqe=3
+#EXTINF:-1 tvg-id="G23" tvg-name="吉林卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Jilin.png" group-title="卫视Max",吉林卫视
+http://[2409:8087:2001:20:2800:0:df6e:eb03]/wh7f454c46tw1874077489_789689702/ott.mobaibox.com/PLTV/3/224/3221228130/index.m3u8?icpid=3&RTS=1669700475&from=40&popid=40&hms_devid=2039&prioritypopid=40&vqe=3
+#EXTINF:-1 tvg-id="G24" tvg-name="三沙卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Sansha.png" group-title="卫视Max",三沙卫视
+http://[2409:8087:5e01:34::21]:6610/ZTE_CMS/08984400000000060000000000000319/index.m3u8?IAS
+#EXTINF:-1 tvg-id="G25" tvg-name="东南卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Dongnan.png" group-title="卫视Max",东南卫视
+http://[2409:8087:2001:20:2800:0:df6e:eb0a]/wh7f454c46tw2900649569_-743777193/ott.mobaibox.com/PLTV/3/224/3221227670/index.m3u8?icpid=3&RTS=1669701501&from=40&popid=40&hms_devid=2038&prioritypopid=40&vqe=3
+#EXTINF:-1 tvg-id="G26" tvg-name="青海卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Qinghai.png" group-title="卫视Max",青海卫视
+http://[2409:8087:2001:20:2800:0:df6e:eb1b]/wh7f454c46tw1221605145_-1738716276/ott.mobaibox.com/PLTV/3/224/3221227554/index.m3u8?icpid=3&RTS=1668600311&from=40&popid=40&hms_devid=2116&prioritypopid=40&vqe=3
+#EXTINF:-1 tvg-id="G27" tvg-name="新疆卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Xinjiang.png" group-title="卫视Max",新疆卫视
+http://[2409:8087:2001:20:2800:0:df6e:eb0b]/wh7f454c46tw993550557_162751766/ott.mobaibox.com/PLTV/3/224/3221228290/index.m3u8?icpid=3&RTS=1668604377&from=40&popid=40&hms_devid=2038&prioritypopid=40&vqe=3
+#EXTINF:-1 tvg-id="G28" tvg-name="云南卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Yunnan.png" group-title="卫视Max",云南卫视
+http://[2409:8087:2001:20:2800:0:df6e:eb18]:80/wh7f454c46tw935748466_239885853/ott.mobaibox.com/PLTV/3/224/3221227571/index.m3u8?icpid=3&RTS=1674381051&from=40&popid=40&hms_devid=2113&prioritypopid=40&vqe=3
+#EXTINF:-1 tvg-id="G29" tvg-name="内蒙古卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/Neimeng.png" group-title="卫视Max",内蒙古卫视
+http://[2409:8087:2001:20:2800:0:df6e:eb09]:80/wh7f454c46tw342184966_550506844/ott.mobaibox.com/PLTV/3/224/3221225836/index.m3u8?icpid=3&RTS=1674380457&from=40&popid=40&hms_devid=2037&prioritypopid=40&vqe=3
+#EXTINF:-1 tvg-id="G30" tvg-name="宁夏卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/Ningxia.png" group-title="卫视Max",宁夏卫视
+http://[2409:8087:2001:20:2800:0:df6e:eb11]:80/wh7f454c46tw1566530147_207556490/ott.mobaibox.com/PLTV/3/224/3221225842/index.m3u8?icpid=3&RTS=1674385976&from=40&popid=40&hms_devid=2110&prioritypopid=40&vqe=3
+#EXTINF:-1 tvg-id="G31" tvg-name="山西卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/Shanxi_.png" group-title="卫视Max",山西卫视
+http://[2409:8087:2001:20:2800:0:df6e:eb15]:80/wh7f454c46tw344140462_-2028691628/ott.mobaibox.com/PLTV/3/224/3221225786/index.m3u8?icpid=3&RTS=1674380459&from=40&popid=40&hms_devid=2115&prioritypopid=40&vqe=3
+#EXTINF:-1 tvg-id="G32" tvg-name="陕西卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/Shanxi.png" group-title="卫视Max",陕西卫视
+http://[2409:8087:2001:20:2800:0:df6e:eb04]:80/wh7f454c46tw1569246526_-524253969/ott.mobaibox.com/PLTV/3/224/3221227022/index.m3u8?icpid=3&RTS=1674385979&from=40&popid=40&hms_devid=2041&prioritypopid=40&vqe=3
+#EXTINF:-1 tvg-id="G33" tvg-name="厦门卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/Xiamen.png" group-title="卫视Max",厦门卫视
+http://[2409:8087:2001:20:2800:0:df6e:eb18]:80/wh7f454c46tw342610214_-1954178112/ott.mobaibox.com/PLTV/3/224/3221226996/index.m3u8?icpid=3&RTS=1674380458&from=40&popid=40&hms_devid=2113&prioritypopid=40&vqe=3
+#EXTINF:-1 tvg-id="G34" tvg-name="西藏卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/Xizang.png" group-title="卫视Max",西藏卫视
+http://[2409:8087:2001:20:2800:0:df6e:eb09]:80/wh7f454c46tw1568477079_-1827039588/ott.mobaibox.com/PLTV/3/224/3221226376/index.m3u8?icpid=3&RTS=1674385978&from=40&popid=40&hms_devid=2037&prioritypopid=40&vqe=3
+#EXTINF:-1 tvg-id="G35" tvg-name="延边卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/Yanbian.png" group-title="卫视Max",延边卫视
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226516/index.m3u8
 
 
 #数字高清/26个频道
