@@ -187,8 +187,6 @@ http://[2409:8087:5e08:24::11]:6610/000000001000/5000000004000023002/1.m3u8?m3u8
 http://[2409:8087:5e08:24::11]:6610/000000001000/5000000004000019351/1.m3u8?m3u8_level=2
 #EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="https://live.fanmingming.com/tv/浙江卫视.png" group-title="卫视50fps",浙江卫视
 http://[2409:8087:5e08:24::11]:6610/000000001000/5000000004000007275/1.m3u8?m3u8_level=2
-#EXTINF:-1 tvg-id="东南卫视" tvg-name="东南卫视" tvg-logo="https://live.fanmingming.com/tv/东南卫视.png" group-title="卫视50fps",东南卫视
-http://[2409:8087:5e08:24::11]:6610/000000001000/5000000004000010584/1.m3u8?m3u8_level=2
 #EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://live.fanmingming.com/tv/广东卫视.png" group-title="卫视50fps",广东卫视
 http://[2409:8087:5e08:24::11]:6610/000000001000/5000000004000014694/1.m3u8?m3u8_level=2
 #EXTINF:-1 tvg-id="深圳卫视" tvg-name="深圳卫视" tvg-logo="https://live.fanmingming.com/tv/深圳卫视.png" group-title="卫视50fps",深圳卫视
